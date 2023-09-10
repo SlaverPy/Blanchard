@@ -15,18 +15,21 @@
         <a href="#" class="logo__header">
           <img src="img/logo.png" alt="Blanchard художественная галерея">
         </a>
-        <nav>
+        <nav class="header__nav">
           <ul class="header__list flex list-reset">
-            <li><a href="#about" class="">О нас</a></li>
-            <li><a href="#gallery" class="">Галерея</a></li>
-            <li><a href="#catalog" class="">Каталог</a></li>
-            <li><a href="#events" class="">События</a></li>
-            <li><a href="#projects" class="">Проекты</a></li>
-            <li><a href="#contacts" class="">Контакты</a></li>
+            <li><a href="#about" class="header_link font-text">О нас</a></li>
+            <li><a href="#gallery" class="header_link font-text">Галерея</a></li>
+            <li><a href="#catalog" class="header_link font-text">Каталог</a></li>
+            <li><a href="#events" class="header_link font-text">События</a></li>
+            <li><a href="#projects" class="header_link font-text">Проекты</a></li>
+            <li><a href="#contacts" class="header_link font-text">Контакты</a></li>
           </ul>
         </nav>
-        <button>
-
+        <button class="btn-reset header__search">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="8.79564" height="2.19891" transform="matrix(-0.711314 0.702874 0.711314 0.702874 6.25647 20.2722)" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.3286 23.3112C9.54218 23.3112 5.06477 18.549 5.06477 12.9507C5.06477 7.35228 9.54218 2.59013 15.3286 2.59013C21.115 2.59013 25.5924 7.35228 25.5924 12.9507C25.5924 18.549 21.115 23.3112 15.3286 23.3112ZM15.3286 25.9013C8.33038 25.9013 2.6572 20.1031 2.6572 12.9507C2.6572 5.79821 8.33038 0 15.3286 0C22.3268 0 28 5.79821 28 12.9507C28 20.1031 22.3268 25.9013 15.3286 25.9013Z" fill="white"/>
+          </svg>
         </button>
       </div>
     </div>
@@ -35,21 +38,21 @@
     <section id="hero" class="hero cont">
       <div class="container">
         <div class="hero__content">
-          <h2 class="hero__title">Прикоснитесь к прекрасному</h2>
-          <p class="hero__description">Мы вынуждены отталкиваться от того, что реализация намеченных
+          <h2 class="hero__title font-text">Прикоснитесь к прекрасному</h2>
+          <p class="hero__description font-text">Мы вынуждены отталкиваться от того, что реализация намеченных
              плановых заданий создаёт предпосылки для новых предложений
           </p>
-          <button class="btn-reset hero__btn">Подписаться на рассылку</button>
+          <button class="btn-reset hero__btn font-text">Подписаться на рассылку</button>
         </div>
       </div>
     </section>
     <section id="about" class="cont">
       <div class="container">
         <div class="about__content">
-          <h2 class="about__title">О нас</h2>
-          <p class="about__description">Ясность нашей позиции очевидна: семантический разбор внешних
+          <h2 class="about__title black_title font-text">О нас</h2>
+          <p class="about__description font-text">Ясность нашей позиции очевидна: семантический разбор внешних
             противодействий однозначно определяет каждого участника как 
-            способного принимать собственные решения касаемо распределения
+            способного принимать собственные решения касаемо распреfiделения
             внутренних резервов и ресурсов. Не следует, однако, забывать,
             что высококачественный прототип будущего проекта влечёт за собой
             процесс внедрения и модернизации модели развития. Повседневная
@@ -63,26 +66,40 @@
         </div>
       </div>
     </section>
-    <section id="gallery" class="cont">
+    <section id="gallery" class="gal cont">
       <div class="container">
         <div class="gallery__content">
-          <h2 class="gallery__title">Галерея</h2>
-          <form action="">
+          <h2 class="gallery__title font-text">Галерея</h2>
+          <div class="flex gallery__block">
+          <form class="gallery__form">
+            <div>
+              <input type="checkbox" id="19th_century" name="19th_century" class="form__label" />
+              <label for="scales" class="font-text form_check">XIX век</label>
+            </div>
 
+            <div>
+              <input type="checkbox" id="20th_century" name="20th_century" class="form__label" checked/>
+              <label for="horns" class="font-text form_check">XX век</label>
+            </div>
+            <div>
+              <input type="checkbox" id="Modernity" name="Modernity" class="form__label"/>
+              <label for="horns" class="font-text form_check">Современность</label>
+            </div>
           </form>
-          <ul>
+          <ul class="gallery__list flex list-reset">
             <li><img src="img/painting1.jpg" alt=""></li>
             <li><img src="img/painting2.jpg" alt=""></li>
             <li><img src="img/painting3.jpg" alt=""></li>
           </ul>
         </div>
       </div>
+      </div>
     </section>
     <section id="catalog" class="cont">
       <div class="container">
         <div class="catalog__content">
-          <h2 class="catalog__title">Каталог</h2>
-          <p class="catalog__description">Акционеры крупнейших компаний, которые представляют собой яркий
+          <h2 class="catalog__title font-text black_title">Каталог</h2>
+          <p class="catalog__description  font-text">Акционеры крупнейших компаний, которые представляют собой яркий
             пример континентально-европейского типа политической культуры,
             будут объявлены нарушающими общечеловеческие нормы этики и морали.
             Являясь всего лишь частью общей картины, стремящиеся вытеснить
@@ -90,13 +107,14 @@
             уделом либералов, которые жаждут быть функционально разнесены на 
             независимые элементы.
           </p>
-          <ul class="catalog__list">
+          <ul class="catalog__list list-reset flex">
             <li class="catalog__item">
-              <div>
+              <div class="catalog_card flex">
                 <img src="img/self-portrait1.jpg" alt="">
-                <h3 class="item__title">Доменико Гирландайо</h3>
-                  <time class="item__time">2 июня 1448–11 января 1494</time>
-                <p class="item__description">
+                <div class="card__info flex">
+                <h3 class="item__title font-text">Доменико Гирландайо</h3>
+                  <time class="item__time font-text">2 июня 1448–11 января 1494</time>
+                <p class="item__description font-text">
                   Один из ведущих флорентийских художников Кватроченто, основатель
                   художественной династии, которую продолжили его брат Давид и 
                   сын Ридольфо. Глава художественной мастерской, где юный
@@ -107,13 +125,15 @@
                   в костюмах того времени).
                 </p>
               </div>
+              </div>
             </li>
-            <li>
-              <div>
+            <li class="catalog__item">
+              <div class="catalog_card flex">
                 <img src="img/self-portrait2.jpg" alt="">
-                <h3 class="item__title">Андреа дель Верроккьо</h3>
-                <time class="item__time">1435–10 октября 1488</time>
-                <p class="item__description">
+                <div class="card__info flex">
+                <h3 class="item__title font-text">Андреа дель Верроккьо</h3>
+                <time class="item__time font-text">1435–10 октября 1488</time>
+                <p class="item__description font-text">
                   Творческий путь молодого Андреа, как и многих знаменитых художников
                   и скульпторов эпохи Возрождения, начался с обучения и работы в 
                   одной из ювелирных мастерских Флоренции. Там он занимался не 
@@ -123,13 +143,15 @@
                   заимствовал для своего будущего псевдонима.
                 </p>
               </div>
+            </div>
             </li>
-            <li>
-              <div>
+            <li class="catalog__item">
+              <div class="catalog_card flex">
                 <img src="img/self-portrait3.jpg" alt="">
-                <h3 class="item__title">Лоренцо ди Креди</h3>
-                <time class="item__time">1459–12 января 1537</time>
-                <p class="item__description">
+                <div class="card__info flex">
+                <h3 class="item__title font-text">Лоренцо ди Креди</h3>
+                <time class="item__time font-text">1459–12 января 1537</time>
+                <p class="item__description font-text">
                   Один из ведущих флорентийских художников Кватроченто, основатель
                   художественной династии, которую продолжили его брат Давид и 
                   сын Ридольфо. Глава художественной мастерской, где юный
@@ -139,6 +161,7 @@
                   (в их роли выступают знатные граждане Флоренции в костюмах того времени).
                 </p>
               </div>
+            </div>
             </li>
           </ul>
         </div>
@@ -147,66 +170,79 @@
     <section id="events" class="cont">
       <div class="container">
         <div class="events__content">
-          <h2 class="events__title">События</h2>
-          <ul class="events__list">
+          <h2 class="events__title font-text black_title">События</h2>
+          <ul class="events__list flex list-reset">
             <li class="list__item">
               <div class="event__card">
                 <img src="img/event-banner1.jpg" alt="">
-                <span class="card__beginning">
+                <div class="card__content">
+                <span class="card__beginning font-text">
                   Музей им. Щусева
+                </span>
+                  <span class="card__beginning font-text">
                   с 20 марта по 30 апреля
                 </span>
-                <h3 class="card__title">
+                <h3 class="card__title font-text">
                   Книжная гравюра в живом восприятии
                 </h3>
-                <p class="card__description">
+                <p class="card__description font-text">
                   Один из ведущих флорентийских художников Кватроченто, основатель
                   художественной династии, которую продолжили его брат Давид и сын Ридольфо
                 </p>
-                <a href="">
+                <a href="" class="card__link font-text">
                   Подробнее
                 </a>
+              </div>
               </div>
             </li>
             <li class="list__item">
               <div class="event__card">
                 <img src="img/event-banner2.jpg" alt="">
-                <span class="card__beginning">
+                <div class="card__content">
+                <span class="card__beginning font-text">
                   ММОМА
+                </span>
+                <span class="card__beginning font-text">
                   24 марта 19:00
                 </span>
-                <h3 class="card__title">
+                <h3 class="card__title font-text">
                   «Открытая дискуссия». Дмитрий Петров и Сергей Ильин.
                 </h3>
-                <p class="card__description">
+                <p class="card__description font-text">
                   Высокий уровень вовлечения представителей целевой аудитории
                   является чётким доказательством простого факта
                 </p>
-                <a href="">
+                <a href="" class="card__link font-text">
                   Подробнее
                 </a>
               </div>
+            </div>
             </li>
             <li class="list__item">
               <div class="event__card">
                 <img src="img/event-banner3.jpg" alt="">
-                <span class="card__beginning">
+                <div class="card__content">
+                <span class="card__beginning font-text">
                   Еврейский музей
+                </span>
+                <span class="card__beginning font-text">
                   с 31 марта по 21 апреля
                 </span>
-                <h3 class="card__title">
+                <h3 class="card__title font-text">
                   Выставка «Формация 2020»
                 </h3>
-                <p class="card__description">
+                <p class="card__description font-text">
                   Идейные соображения высшего порядка, а также современная
                   методология разработки играет важную роль в формировании
                   глубокомысленных рассуждений
                 </p>
-                <a href="">
+                <a href="" class="card__link font-text">
                   Подробнее
                 </a>
               </div>
+            </div>
             </li>
+
           </ul>
         </div>
       </div>
@@ -214,8 +250,8 @@
     <section id="projects" class="cont">
       <div class="container">
         <div class="projects__content">
-          <h2 class="projects__title">Проекты</h2>
-          <p class="project__description">
+          <h2 class="projects__title font-text">Проекты</h2>
+          <p class="project__description font-text">
             Предварительные выводы: постоянное информационно-пропагандистское
             обеспечение нашей деятельности однозначно фиксирует необходимость
             своевременного выполнения сверхзадачи. А ещё независимые государства
@@ -230,7 +266,7 @@
             очередь, должны быть смешаны с не уникальными данными до степени совершённой
             неузнаваемости.
           </p>
-          <h3 class="project__partners">Партнёры проектов:</h3>
+          <h3 class="project__partners font-text">Партнёры проектов:</h3>
           <ul>
             <li>
 
