@@ -226,7 +226,14 @@ img {
 
 .header__city {
   color: var(--color-red);
+}
 
+.header__point {
+  border-radius: 9999px;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: var(--color-grey);
+  margin: 0 0.5rem;
 }
 
 .header__location {
