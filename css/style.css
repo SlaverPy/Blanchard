@@ -71,6 +71,8 @@ img {
 :root {
   --color-red: #fc4c02;
   --color-grey: #6f6f6e;
+  --color-green: rgb(8, 90, 8);
+  --color-white: #ffffff;
 }
 
 

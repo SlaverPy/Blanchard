@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const sectionTextMap = {
     'moskov': 'Москва',
     'spb': 'Санкт-Петербург',
-    'kazan': 'Казань',
+    's3': 'Зеленная деревня',
     'sochi': 'Сочи'
   };
 

@@ -1,5 +1,5 @@
 .swiper {
-
+  background-color: var(--color-white);
   height: 345px;
 }
 
@@ -20,24 +20,29 @@
 
 .swiper-button-prev {
   left: 0; /* Располагаем кнопку "назад" слева внутри контейнера */
+  color: var(--color-green);
 }
 
 .swiper-button-next {
   right: 0; /* Располагаем кнопку "вперед" справа внутри контейнера */
+  color: var(--color-green);
 }
 
 
 .swiper__images {
   margin: 30px 18px;
-  max-width: 300px;
+  width: 300px;
   height: 280px;
-  position: absolute;
-  text-align: center;
-  left: 24px;
 }
 
 
 .swiper__text {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+
+.swiper-slide__one {
+  flex-direction: column;
+  align-items: center;
 }
