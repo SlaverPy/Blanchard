@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/style_swiper.css">
+  <link rel="stylesheet" href="css/select_css.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -38,11 +40,18 @@
     </div>
     <header>
       <div class="container">
-        <select name="select" class="select__city">
-          <option class="city_value" selected value="s1">Москва</option>
-          <option class="city_value" value="s2">Санкт-Петербург</option>
-          <option class="city_value" value="s3">Екатеринбург</option>
-        </select>
+        <div class="form-group">
+          <div class="dropdown">
+            <button class="dropdown__button">Заметки путешественника</button>
+            <ul class="dropdown__list">
+              <li class="dropdown__list-item" data-id="moskov" data-value="travel">Москва</li>
+              <li class="dropdown__list-item" data-id="spb" data-value="lessons">Санкт-Петербург</li>
+              <li class="dropdown__list-item" data-id="kazan" data-value="photo">Казань</li>
+              <li class="dropdown__list-item" data-id="sochi" data-value="sport">Сочи</li>
+            </ul>
+            <input type="text" name="select-category" value="" class="dropdown__input-hidden" >
+          </div>
+        </div>
       </div>
     </header>
     <main class="container">
@@ -1015,6 +1024,7 @@
   </div>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="js/style_swiper.js"></script>
+  <script src="js/select_js.js"></script>
 </body>
 
 </html>
