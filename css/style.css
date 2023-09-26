@@ -223,6 +223,7 @@ Select c dropdown на JS
 	position: relative;
 	display: block;
 	width: 100%;
+  max-width: 525px;
 	text-align: left;
 
 	background: #FFFFFF;
@@ -317,7 +318,19 @@ Select c dropdown на JS
 	display: none;
 }
 
-
+.dropdown.sticky {
+  width: 100%;
+  max-width: 525px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Уровень z-index, чтобы класс был поверх других элементов */
+  /* background-color: #fff; Цвет фона класса */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень класса */
+  padding: 10px 15px; /* Внутренний отступ класса */
+  transition: background-color 0.3s ease-in-out; /* Плавное изменение цвета фона при скролле */
+}
 
 
 /* header section */
