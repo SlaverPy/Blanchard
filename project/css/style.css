@@ -44,7 +44,7 @@
 /* tags */
 
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
   margin: 0;
   padding: 0;
 }
@@ -131,7 +131,7 @@ img {
 }
 
 .header__content {
-  padding: 28px 30px 27px;
+  padding: 29px 30px 27px;
 
 }
 
@@ -366,7 +366,7 @@ img {
   font-weight: 600;
   line-height: normal;
   margin-bottom: 10px;
-  margin-top: 13px;
+  margin-top: 12px;
   width: 350px;
 }
 
@@ -378,7 +378,8 @@ img {
 
 .card__link {
   color: #9D5CD0;
-  bottom: 39px;
+  bottom: 43px;
+  height: 7.5%;
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
@@ -387,8 +388,13 @@ img {
 }
 /* projects */
 
+.projects {
+  padding-bottom: 49px;
+  border-bottom: 1px solid #CACACA;
+}
+
 .projects__content {
-  padding: 37px 29px;
+  padding: 29px 30px;
 }
 
 .projects__title {
@@ -396,6 +402,7 @@ img {
   font-size: 48px;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 16px;
 }
 
 .project__description {
@@ -403,6 +410,8 @@ img {
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
+  width: 1075px;
+  margin-bottom: 30px;
 }
 
 .project__partners {
@@ -410,4 +419,99 @@ img {
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
+  margin-bottom: 16px;
+}
+
+.partners__list {
+  gap: 34px;
+}
+
+.partners__logo {
+  padding: 26px;
+  border: 1px solid #CACACA;
+}
+
+/* form block */
+
+.contacts__content {
+  padding: 34px 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content__left {
+  flex-direction: column;
+  margin-bottom: 1px;
+}
+
+.contacts__title {
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.contacts__address {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.contact__form {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+}
+
+.form_input {
+  border-radius: 100px;
+  border: 1px solid #333;
+  width: 270px;
+  padding: 23px;
+  height: 50px;
+  color: #999;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.form_button {
+  color: #9D5CD0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 100px;
+  border: 2px solid #9D5CD0;
+  width: 329px;
+  height: 50px;
+}
+
+
+.social__text {
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 6px;
+  margin-top: 2px;
+}
+
+
+.social_wa {
+  margin-right: 17px;
+
+}
+
+/* footer */
+
+.footer {
+  background-color: #000;
+}
+
+.footer__content{
+  justify-content: space-between;
 }
