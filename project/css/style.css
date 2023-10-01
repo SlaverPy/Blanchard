@@ -44,7 +44,7 @@
 /* tags */
 
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, p, ul {
   margin: 0;
   padding: 0;
 }
@@ -98,8 +98,8 @@ img {
 
 
 .container {
-  max-width: 1810px;
-  padding: 0 75px;
+  max-width: 100%;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -128,10 +128,13 @@ img {
 
 .header__container {
   background-color: black;
+
 }
 
 .header__content {
-  padding: 29px 30px 27px;
+  width: 1630px;
+  margin: 0 auto;
+  padding: 29px 15px 27px;
 
 }
 
@@ -175,8 +178,9 @@ img {
 }
 
 .hero__content {
-  padding: 146px 30px;
-  width: 640px;
+  width: 1630px;
+  margin: 0 auto;
+  padding: 146px 15px;
 }
 
 .hero__title {
@@ -213,7 +217,9 @@ img {
 /* about */
 
 .about__content {
-  padding: 39px 30px 19px;
+  width: 1630px;
+  margin: 0 auto;
+  padding: 39px 15px 19px;
 }
 
 .about__title {
@@ -236,7 +242,9 @@ img {
 }
 
 .gallery__content {
-  padding: 80px 30px 77px;
+  width: 1630px;
+  margin: 0 auto;
+  padding: 80px 15px 77px;
 }
 
 
@@ -275,7 +283,9 @@ img {
 /* catalog */
 
 .catalog__content {
-  padding: 39px 30px;
+  width: 1630px;
+  margin: 0 auto;
+  padding: 39px 15px;
 }
 
 .catalog__title {
@@ -330,7 +340,9 @@ img {
 /* events */
 
 .events__content {
-  padding: 0 30px;
+  width: 1630px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .events__title {
@@ -348,8 +360,8 @@ img {
 
 .card__content {
   position: relative;
-  padding: 7px 49px;
-  height: 395px;
+  padding: 6px 50px;
+  height: 393px;
 
 }
 
@@ -366,8 +378,7 @@ img {
   font-weight: 600;
   line-height: normal;
   margin-bottom: 10px;
-  margin-top: 12px;
-  width: 350px;
+  margin-top: 11px;
 }
 
 .card__description {
@@ -394,7 +405,9 @@ img {
 }
 
 .projects__content {
-  padding: 29px 30px;
+  width: 1630px;
+  margin: 0 auto;
+  padding: 29px 15px;
 }
 
 .projects__title {
@@ -434,7 +447,9 @@ img {
 /* form block */
 
 .contacts__content {
-  padding: 34px 30px;
+  width: 1630px;
+  margin: 0 auto;
+  padding: 34px 15px 35px;
   justify-content: space-between;
   align-items: center;
 }
@@ -502,7 +517,7 @@ img {
 
 
 .social_wa {
-  margin-right: 17px;
+  margin-right: 16px;
 
 }
 
@@ -512,6 +527,19 @@ img {
   background-color: #000;
 }
 
+.footer__logo {
+  margin-top: 3px;
+}
+
 .footer__content{
+  max-width: 1630px;
+  margin: 0 auto;
   justify-content: space-between;
+  padding: 47px 15px 40px;
+}
+
+.footer__social {
+  width: 110px;
+  justify-content: space-between;
+  margin-bottom: 0px;
 }
