@@ -1,0 +1,174 @@
+@media (max-width: 1630px) {
+  .container__content {
+    width: 955px;
+  }
+
+  .header__content {
+    flex-wrap: wrap;
+    gap: 21px;
+    padding: 29px 15px 20px;
+
+  }
+
+  .logo {
+    width: 188px;
+  }
+
+  .header__nav {
+    order: 3;
+  }
+
+  .header__search {
+    margin-top: 4px;
+    margin-right: 1px;
+  }
+
+  .hero {
+    height: 621px;
+  }
+
+  .hero__content {
+    padding: 101px 15px;
+  }
+
+  .hero__description {
+    width: 670px;
+    margin-bottom: 133px;
+  }
+
+  .about__description {
+    width: 925px;
+  }
+
+  .gallery__title {
+    margin-bottom: 17px;
+  }
+
+  .gallery__block {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+
+  }
+
+   .catalog__description {
+    width: 925px;
+  }
+
+  .catalog__list {
+    gap: 49px;
+  }
+
+  .catalog_card {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+
+  .item__time {
+    margin-bottom: 6px;
+  }
+
+  .item__description {
+    margin-right: 2px;
+  }
+
+  .events__list {
+    gap: 27px;
+  }
+
+  .event__img {
+    min-width: 288px;
+    min-height: 200px;
+    width: 100%;
+  }
+
+  .card__content {
+    padding: 9px 33px;
+    height: 478px;
+  }
+
+  .card__beginning {
+    text-align: end;
+  }
+
+  .card__title {
+    margin-top: 2px;
+    margin-bottom: 5px;
+  }
+
+  .card__title-first {
+    margin-bottom: 8px;
+  }
+
+  .card__link {
+    bottom: 51px;
+    height: 6.4%;
+  }
+
+  .projects__content {
+    padding: 28px 15px;
+  }
+  .projects__title {
+    margin-bottom: 17px;
+  }
+
+
+  .project__description {
+    width: 100%;
+    margin-bottom: 21px;
+  }
+  .project__partners {
+    margin-bottom: 15px;
+  }
+
+  .partners__list {
+    gap: 27px;
+  }
+
+  .projects {
+    padding-bottom: 49px;
+  }
+
+ /* contact */
+
+  .contacts__content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    padding: 42px 15px 40px;
+  }
+
+  .contacts__title {
+    margin-bottom: 4px;
+  }
+
+  .contacts__address {
+    font-size: 14px;
+  }
+
+  .contact__form {
+    margin-bottom: 6px;
+  }
+
+  .form_button {
+    width: 343px;
+  }
+
+  /* Footer */
+
+  .footer__content{
+    padding: 40px 15px 38px;
+  }
+
+  .footer__social {
+    width: 144px;
+
+  }
+
+  .social__svg {
+    width: 60px;
+    height: 60px;
+  }
+
+}

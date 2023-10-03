@@ -112,6 +112,11 @@ img {
   font-style: normal;
 }
 
+.container__content {
+  width: 1630px;
+  margin: 0 auto;
+}
+
 .btn-reset {
   padding: 0;
   border: none;
@@ -132,8 +137,6 @@ img {
 }
 
 .header__content {
-  width: 1630px;
-  margin: 0 auto;
   padding: 29px 15px 27px;
 
 }
@@ -178,8 +181,6 @@ img {
 }
 
 .hero__content {
-  width: 1630px;
-  margin: 0 auto;
   padding: 146px 15px;
 }
 
@@ -217,8 +218,6 @@ img {
 /* about */
 
 .about__content {
-  width: 1630px;
-  margin: 0 auto;
   padding: 39px 15px 19px;
 }
 
@@ -242,8 +241,6 @@ img {
 }
 
 .gallery__content {
-  width: 1630px;
-  margin: 0 auto;
   padding: 80px 15px 77px;
 }
 
@@ -266,6 +263,10 @@ img {
   gap: 50px;
 }
 
+.list__img {
+  width: 100%;
+}
+
 .form__label {
   margin-right: 7px;
 }
@@ -283,8 +284,6 @@ img {
 /* catalog */
 
 .catalog__content {
-  width: 1630px;
-  margin: 0 auto;
   padding: 39px 15px;
 }
 
@@ -308,6 +307,10 @@ img {
 .catalog_card {
   align-items: center;
   gap: 50px;
+}
+
+.card__img {
+  width: 100%;
 }
 
 .card__info {
@@ -340,8 +343,6 @@ img {
 /* events */
 
 .events__content {
-  width: 1630px;
-  margin: 0 auto;
   padding: 0 15px;
 }
 
@@ -357,6 +358,7 @@ img {
   border: 1px solid #CACACA;
   background: #FFF;
 }
+
 
 .card__content {
   position: relative;
@@ -405,8 +407,6 @@ img {
 }
 
 .projects__content {
-  width: 1630px;
-  margin: 0 auto;
   padding: 29px 15px;
 }
 
@@ -447,8 +447,6 @@ img {
 /* form block */
 
 .contacts__content {
-  width: 1630px;
-  margin: 0 auto;
   padding: 34px 15px 35px;
   justify-content: space-between;
   align-items: center;
@@ -528,12 +526,10 @@ img {
 }
 
 .footer__logo {
-  margin-top: 3px;
+  align-self: center;
 }
 
 .footer__content{
-  max-width: 1630px;
-  margin: 0 auto;
   justify-content: space-between;
   padding: 47px 15px 40px;
 }
