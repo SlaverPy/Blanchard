@@ -36,6 +36,10 @@
     margin-bottom: 133px;
   }
 
+  .hero__btn {
+    height: auto;
+  }
+
   .about__description {
     width: 925px;
   }
@@ -162,13 +166,153 @@
   }
 
   .footer__social {
-    width: 144px;
-
+    width: 140px;
+    margin-right: 1px;
   }
 
   .social__svg {
     width: 60px;
     height: 60px;
+  }
+
+}
+
+@media (max-width: 1023px) {
+  .container__content {
+    width: 700px;
+  }
+
+  .header__nav {
+    width: 99.25%;
+  }
+
+  .header__list {
+    width: auto;
+  }
+
+  .hero__content {
+    padding: 87px 15px;
+  }
+
+  .hero__description {
+    width: 530px;
+  }
+
+  .hero__btn {
+    padding: 24px 36px;
+  }
+
+  .about__content {
+    padding-top: 38px;
+    padding-bottom: 20px;
+  }
+
+  .about__description {
+    width: auto;
+  }
+
+  .gallery__content {
+    padding: 80px 15px 76px;
+  }
+
+  .gallery__list {
+    gap: 34px;
+  }
+
+  .catalog__description {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .card__info {
+    gap: 6px;
+  }
+
+  .item__time {
+    margin-bottom: 1px;
+  }
+
+  .item__description {
+    margin-right: 0;
+  }
+
+  .catalog__list {
+    gap: 50px;
+  }
+
+  .events__list {
+    flex-direction: column;
+    gap: 29px;
+  }
+
+  #event_1 {
+    content: url(../img/event-banner1-768.jpg);
+  }
+
+  #event_2 {
+    content: url(../img/event-banner2-768.jpg);
+  }
+
+  #event_3 {
+    content: url(../img/event-banner3-768.jpg);
+  }
+
+  .card__title {
+    margin-top: 4px;
+    width: 81%;
+    margin-bottom: 14px;
+  }
+
+  .card__title-first {
+    margin-bottom: 14px;
+    margin-top: 2px;
+  }
+
+  .card__content {
+    height: 323px;
+  }
+
+  .card__link {
+    bottom: 49px;
+    height: 9.2%;
+  }
+
+  .projects__content {
+    padding: 31px 15px 28px;
+}
+
+  .project__description {
+    margin-bottom: 27px;
+  }
+
+  .project__partners {
+    margin-bottom: 29px;
+  }
+
+  .partners__list {
+    gap: 34px;
+  }
+
+  .partners__logo {
+    padding-left: 22px;
+    padding-right: 19px;
+  }
+
+  .contact__form {
+    flex-wrap: wrap;
+    row-gap: 12px;
+  }
+
+  .form_input {
+    width: 324px;
+  }
+
+  .form_button {
+    width: 317px;
+  }
+
+  .footer__logo {
+    margin-left: 2px;
   }
 
 }

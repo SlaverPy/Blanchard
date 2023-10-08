@@ -78,19 +78,19 @@
           <h2 class="gallery__title font-text">Галерея</h2>
           <div class="flex gallery__block">
           <form class="gallery__form">
-            <div>
-              <input type="checkbox" id="19th_century" name="19th_century" class="form__label" />
-              <label for="scales" class="font-text form_check">XIX век</label>
-            </div>
+            <label for="happy" class="font-text form__label">
+              <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="XIX" >
+              <span class="font-text form__label">XIX век</span>
+            </label>
+            <label for="happy" class="font-text form__label">
+              <input type="checkbox" class="custom-checkbox" id="happy2" name="happy2" value="XX" checked="checked">
+              <span class="font-text form__label">XX век</span>
+            </label>
+            <label for="happy" class="font-text form__label">
+              <input type="checkbox" class="custom-checkbox" id="happy3" name="happy3" value="today" >
+              <span class="font-text form__label">Современность</span>
+            </label>
 
-            <div>
-              <input type="checkbox" id="20th_century" name="20th_century" class="form__label" checked/>
-              <label for="horns" class="font-text form_check">XX век</label>
-            </div>
-            <div>
-              <input type="checkbox" id="Modernity" name="Modernity" class="form__label"/>
-              <label for="horns" class="font-text form_check">Современность</label>
-            </div>
           </form>
           <ul class="gallery__list flex list-reset">
             <li><img src="img/painting1.jpg" alt="" class="list__img"></li>
@@ -180,7 +180,7 @@
           <ul class="events__list flex list-reset">
             <li class="list__item">
               <div class="event__card">
-                <img src="img/event-banner1.jpg" alt="" class="event__img">
+                <img src="img/event-banner1.jpg" alt="" class="event__img" id="event_1">
                 <div class="card__content">
                 <span class="card__beginning font-text">
                   Музей им. Щусева
@@ -203,7 +203,7 @@
             </li>
             <li class="list__item">
               <div class="event__card">
-                <img src="img/event-banner2.jpg" alt="" class="event__img">
+                <img src="img/event-banner2.jpg" alt="" class="event__img" id="event_2">
                 <div class="card__content">
                 <span class="card__beginning font-text">
                   ММОМА
@@ -226,7 +226,7 @@
             </li>
             <li class="list__item">
               <div class="event__card">
-                <img src="img/event-banner3.jpg" alt="" class="event__img">
+                <img src="img/event-banner3.jpg" alt="" class="event__img" id="event_3">
                 <div class="card__content">
                 <span class="card__beginning font-text">
                   Еврейский музей

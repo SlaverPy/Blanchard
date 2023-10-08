@@ -268,16 +268,44 @@ img {
 }
 
 .form__label {
-  margin-right: 7px;
-}
-
-.form_check {
-  color: #FFF;
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
+  color: white;
 }
 
+
+.custom-checkbox{
+  display: none;
+}
+
+.footer__label {
+  color: #FFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+/*   color: #CACACA; */
+}
+
+.custom-checkbox:checked+span::before {
+  border: 1px solid #C283F3;
+  fill: #C283F3;
+  background-image: url("../img/cheked_svg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.custom-checkbox+span::before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #ffffff;
+  margin-right: 12px;
+  margin: 0 12px 0px 1px;
+}
 
 
 
