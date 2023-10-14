@@ -78,6 +78,9 @@ img {
 
 /* global */
 
+.hidden {
+  display: none;
+}
 
 .list-reset {
   list-style: none;
@@ -157,7 +160,7 @@ img {
   color: white;
 }
 
-.header_link {
+.header__link {
   color: #FFF;
   text-align: center;
   font-size: 18px;
