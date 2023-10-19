@@ -19,8 +19,13 @@
   }
 
   .header__search {
-    margin-top: 4px;
-    margin-right: 1px;
+    margin-top: 3px;
+    margin-right: 0px;
+  }
+
+  .search__icon {
+    width: 18px;
+    height: 17px;
   }
 
   .hero {
@@ -340,6 +345,11 @@
   .header__list {
     justify-content: NORMAL;
     gap: 26px;
+    overflow-x: auto;
+  }
+
+  .list__item {
+    flex-shrink: 0;
   }
 
   .header__link {
@@ -589,7 +599,7 @@
 
   .footer__content {
     flex-direction: column-reverse;
-    padding: 20px 15px 38px;
+    padding: 20px 15px 8px;
     align-items: center;
     gap: 8px;
   }
@@ -599,6 +609,7 @@
   }
 
   .footer__logo {
-    width: 98px;
+    width: 97px;
+    margin-left: 0px;
   }
 }
