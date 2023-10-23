@@ -8,6 +8,7 @@
     gap: 21px;
     padding: 29px 15px 20px;
 
+
   }
 
   .logo {
@@ -335,7 +336,13 @@
   .header__content {
     padding: 14px 0px 6px;
     gap: 0;
+    row-gap: 9px;
   }
+
+  .logo__header {
+    margin-right: auto;
+  }
+
 
   .logo {
     width: 96px;
@@ -346,6 +353,7 @@
     justify-content: NORMAL;
     gap: 26px;
     overflow-x: auto;
+    gap: 26.8px;
   }
 
   .list__item {
@@ -550,8 +558,9 @@
   /* contact */
 
   .contacts__content {
-    padding: 16px 0 47px;
+    padding: 15px 0 47px;
     gap: 12px;
+
   }
 
   .contacts__title {
@@ -588,6 +597,7 @@
 
   .social__text {
     font-size: 17px;
+    margin-top: 3px;
   }
 
   .social__link {
